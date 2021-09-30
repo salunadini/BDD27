@@ -12,6 +12,7 @@ public class PostsSteps {
 
     @When("I type the message as in the text box")
     public void iTypeTheMessageAsInTheTextBox() {
+        System.out.println("I type the message as in the text box");
     }
 
     @And("Click on Post button")
